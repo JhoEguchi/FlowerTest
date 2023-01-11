@@ -1,0 +1,27 @@
+Script started on 2022-11-23 16:22:51-03:00 [TERM="ansi" TTY="/dev/pts/15" COLUMNS="80" LINES="24"]
+^CTraceback (most recent call last):
+  File "/home/tg/Área de Trabalho/FlowerTest/quickstart_pytorch/server.py", line 3, in <module>
+    import flwr as fl
+  File "/home/tg/.cache/pypoetry/virtualenvs/quickstart-pytorch-weaOo_mC-py3.9/lib/python3.9/site-packages/flwr/__init__.py", line 19, in <module>
+    from . import client, server, simulation
+  File "/home/tg/.cache/pypoetry/virtualenvs/quickstart-pytorch-weaOo_mC-py3.9/lib/python3.9/site-packages/flwr/client/__init__.py", line 18, in <module>
+    from .app import ClientLike as ClientLike
+  File "/home/tg/.cache/pypoetry/virtualenvs/quickstart-pytorch-weaOo_mC-py3.9/lib/python3.9/site-packages/flwr/client/app.py", line 22, in <module>
+    from flwr.common import GRPC_MAX_MESSAGE_LENGTH
+  File "/home/tg/.cache/pypoetry/virtualenvs/quickstart-pytorch-weaOo_mC-py3.9/lib/python3.9/site-packages/flwr/common/__init__.py", line 18, in <module>
+    from .parameter import bytes_to_ndarray as bytes_to_ndarray
+  File "/home/tg/.cache/pypoetry/virtualenvs/quickstart-pytorch-weaOo_mC-py3.9/lib/python3.9/site-packages/flwr/common/parameter.py", line 21, in <module>
+    import numpy as np
+  File "/home/tg/.cache/pypoetry/virtualenvs/quickstart-pytorch-weaOo_mC-py3.9/lib/python3.9/site-packages/numpy/__init__.py", line 145, in <module>
+    from . import core
+  File "/home/tg/.cache/pypoetry/virtualenvs/quickstart-pytorch-weaOo_mC-py3.9/lib/python3.9/site-packages/numpy/core/__init__.py", line 72, in <module>
+    from . import numeric
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 941, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1040, in get_data
+KeyboardInterrupt
+
+Script done on 2022-11-23 16:23:00-03:00 [COMMAND_EXIT_CODE="130"]

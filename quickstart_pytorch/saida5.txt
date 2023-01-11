@@ -1,0 +1,4 @@
+Script started on 2022-11-23 16:20:27-03:00 [<not executed on terminal>]
+a
+
+Script done on 2022-11-23 16:20:27-03:00 [COMMAND_EXIT_CODE="0"]

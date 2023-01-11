@@ -1,0 +1,26 @@
+Script started on 2022-11-16 16:12:43-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+INFO flower 2022-11-16 16:12:44,763 | app.py:134 | Flower server running (3 rounds), SSL is disabled
+INFO flower 2022-11-16 16:12:44,763 | server.py:84 | Initializing global parameters
+INFO flower 2022-11-16 16:12:44,763 | server.py:256 | Requesting initial parameters from one random client
+^CTraceback (most recent call last):
+  File "/home/tg/Área de Trabalho/FlowerTest/quickstart_pytorch/server.py", line 28, in <module>
+    fl.server.start_server(
+  File "/home/tg/.cache/pypoetry/virtualenvs/quickstart-pytorch-weaOo_mC-py3.9/lib/python3.9/site-packages/flwr/server/app.py", line 136, in start_server
+    hist = _fl(
+  File "/home/tg/.cache/pypoetry/virtualenvs/quickstart-pytorch-weaOo_mC-py3.9/lib/python3.9/site-packages/flwr/server/app.py", line 177, in _fl
+    hist = server.fit(num_rounds=config.num_rounds, timeout=config.round_timeout)
+  File "/home/tg/.cache/pypoetry/virtualenvs/quickstart-pytorch-weaOo_mC-py3.9/lib/python3.9/site-packages/flwr/server/server.py", line 85, in fit
+    self.parameters = self._get_initial_parameters(timeout=timeout)
+  File "/home/tg/.cache/pypoetry/virtualenvs/quickstart-pytorch-weaOo_mC-py3.9/lib/python3.9/site-packages/flwr/server/server.py", line 257, in _get_initial_parameters
+    random_client = self._client_manager.sample(1)[0]
+  File "/home/tg/.cache/pypoetry/virtualenvs/quickstart-pytorch-weaOo_mC-py3.9/lib/python3.9/site-packages/flwr/server/client_manager.py", line 133, in sample
+    self.wait_for(min_num_clients)
+  File "/home/tg/.cache/pypoetry/virtualenvs/quickstart-pytorch-weaOo_mC-py3.9/lib/python3.9/site-packages/flwr/server/client_manager.py", line 84, in wait_for
+    return self._cv.wait_for(
+  File "/home/tg/anaconda3/lib/python3.9/threading.py", line 347, in wait_for
+    self.wait(waittime)
+  File "/home/tg/anaconda3/lib/python3.9/threading.py", line 316, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+
+Script done on 2022-11-16 16:12:47-03:00 [COMMAND_EXIT_CODE="130"]

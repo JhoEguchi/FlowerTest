@@ -1,0 +1,5 @@
+Script started on 2022-11-16 16:51:01-03:00 [TERM="xterm-256color" TTY="/dev/pts/14" COLUMNS="80" LINES="24"]
+[?2004h(base) ]0;tg@tg-Aspire-E5-571: ~/Área de Trabalho/FlowerTest/quickstart_pytorch[01;32mtg@tg-Aspire-E5-571[00m:[01;34m~/Área de Trabalho/FlowerTest/quickstart_pytorch[00m$ exi t
+[?2004lexit
+
+Script done on 2022-11-16 16:51:08-03:00 [COMMAND_EXIT_CODE="0"]
